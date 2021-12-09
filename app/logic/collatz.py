@@ -14,10 +14,9 @@ def collatz_sequence(x: int) -> List[int]:
     if x <= 1:
         return [x]
     elif x % 2 == 0:
-        # Note that bitshifting (">> 1") is equivalent to dividing by 2.
-        return [x] + collatz_sequence(x >> 1)
+        return [x] + collatz_sequence(x // 2)
     else:
-        return [x] + collatz_sequence(3 * x + 1 >> 1)
+        return [x] + collatz_sequence((3 * x + 1) // 2)
 
 
 def collatz_graph(x_list: List[int]) -> str:

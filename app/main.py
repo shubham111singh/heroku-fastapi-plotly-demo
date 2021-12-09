@@ -8,11 +8,7 @@ app = FastAPI()
 
 app.include_router(root.router)
 
-app.include_router(
-    collatz.router,
-    prefix="/collatz",
-    tags=["Collatz tag"],
-)
+app.include_router(collatz.router, prefix="/collatz", tags=["Collatz tag"])
 
 
 # Display message when the webservice is invoked without uvicorn.
