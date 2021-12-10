@@ -18,3 +18,7 @@ I believe that one should be able to more-or-less follow the above-linked Heroku
 - [collatz.tensorial.com](http://collatz.tensorial.com/)
 - [example Collatz sequence](http://collatz.tensorial.com/collatz/sequence/127)
 - [example plot of multiple sequences](http://collatz.tensorial.com/collatz/graph/109328502982093486,209328502982093486,309328502982093486)
+
+## Pricing considerations
+
+Everything works great on the free tier, except that you can't use HTTPS. (Consequently, web traffic is unencrypted, and search results are penalized.) For HTTPS, one must upgrade to the next tier ("Hobby"), which is currently $7/month.
