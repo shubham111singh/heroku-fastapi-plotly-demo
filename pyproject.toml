@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "collatz_webservice"
+authors = [{name = "Ben Mares", email = "services-collatz-webservice@tensorial.com"}]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+    "uvicorn",
+    "fastapi",
+    "jinja2",
+    "plotly",
+]
+
+[project.urls]
+Home = "https://gitlab.com/bmares/heroku-fastapi-plotly-demo"

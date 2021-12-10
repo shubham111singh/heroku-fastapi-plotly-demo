@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 from fastapi.responses import HTMLResponse
-from app.logic.collatz import collatz_sequence, collatz_graph
-from typing import List
+from ...logic.collatz import collatz_sequence, collatz_graph
 
 
 router = APIRouter()

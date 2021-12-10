@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.webservice.utils import NoUvicornException
-from app.webservice.routes import root, collatz
+from .webservice.utils import NoUvicornException
+from .webservice.routes import root, collatz
 
 
 # This app variable is used by uvicorn to serve the API.

@@ -1,4 +1,3 @@
-uvicorn
-jinja2
-plotly
-fastapi
+# See pyproject.toml for the actual dependencies.
+
+--editable .  # Install the current project in editable mode

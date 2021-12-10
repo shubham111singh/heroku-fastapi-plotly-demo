@@ -1,4 +1,4 @@
-from typing import Union, List
+from typing import List
 import plotly.graph_objects as go
 
 
